@@ -204,7 +204,7 @@
 
                         <!-- Contact Form Start -->
                         <div class="contact-form">
-                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwK7I_DcHX2SY9geu6KXe2iNC__uNO_K7h6rTu3L6YdjmKpw0FJdOGs3guaHEsdXs_C/exec" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="row">                                
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="fname" class="form-control" id="fname" placeholder="First name" required>
@@ -223,6 +223,18 @@
 
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="email" name="email" class="form-control" id="email" placeholder="E-mail" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-6 mb-4">
+                                        <select name="option" class="form-control" id="option" required>
+                                            <option value="">Select Option</option>
+                                            <option value="Staffing & Recruitment">Staffing & Recruitment</option>
+                                            <option value="Software Development">Software Development</option>
+                                            <option value="Debt Collection">Debt Collection</option>
+                                            <option value="Medical Billing">Medical Billing</option>
+                                            <option value="Accounting & Book Keeping">Accounting & Book Keeping</option>
+                                        </select>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
@@ -480,5 +492,48 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+
+    <script>
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent normal form submission
+
+    let form = this;
+    let submitBtn = form.querySelector("button[type='submit']");
+    let loadingText = "Submitting...";
+
+    // Disable button + show loading text
+    submitBtn.disabled = true;
+    let originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = loadingText;
+
+    // Prepare form data
+    let formData = new FormData(form);
+
+    // Send form using AJAX fetch
+    fetch(form.action, {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.text())
+    .then(result => {
+
+        // Alert user
+        alert("Your message has been submitted successfully!");
+
+        // Clear form
+        form.reset();
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        alert("Something went wrong. Please try again later.");
+    })
+    .finally(() => {
+        // Restore button
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+    });
+});
+</script>
+
 </body>
 </html>
