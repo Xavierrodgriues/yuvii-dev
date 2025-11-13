@@ -3723,7 +3723,7 @@ header.main-header .header-sticky.active{
 
 .sidebar-cta-box{
 	position: relative;
-	background: url('../images/sidebar-cta-bg.jpg') no-repeat;
+	background: url('../images/mypic/sidebar-cta-logo.png') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	border-radius: 30px;
