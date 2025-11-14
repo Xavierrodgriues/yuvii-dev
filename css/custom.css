@@ -7195,7 +7195,21 @@ header.main-header .header-sticky.active {
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 576px){
+
+	.nav-item {
+		border-bottom: 1px solid #80808040;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-item:last-child {
+    border-bottom: none;
+}
+
+	
+}
+@media only screen and (max-width: 768px){
 
 	.nav-item {
 		border-bottom: 1px solid #80808040;
