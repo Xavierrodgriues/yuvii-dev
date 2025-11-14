@@ -7180,10 +7180,17 @@ header.main-header .header-sticky.active{
 	#footer{
 		width: 100%;
 	}
+
+	.container>a>img{
+		width: 100%;
+	}
 }
 @media only screen and (min-width: 992px){
 
 	#footer{
+		width: 50%;
+	}
+	.container>a>img{
 		width: 50%;
 	}
 }
