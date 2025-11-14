@@ -986,7 +986,8 @@ header.main-header .header-sticky.active {
 	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	font-size: 20px;
-	color: var(--accent-secondary-color);
+	/* color: var(--accent-secondary-color); */
+	color: #2FB9C4;
 	top: 0px;
 	left: 0;
 }
