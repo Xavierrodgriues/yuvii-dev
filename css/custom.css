@@ -769,7 +769,7 @@ header.main-header .header-sticky.active {
     position: absolute;
     width: 100%;
     padding: 0;
-    background: rgba(255, 255, 255, 0.445); /* very light white tint */
+    background: rgba(131, 122, 189, 0.445);
     backdrop-filter: blur(12px);           /* strong blur */
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -779,6 +779,7 @@ header.main-header .header-sticky.active {
 
 .slicknav_menu ul {
 	margin: 5px 0;
+	;
 }
 
 .slicknav_menu ul ul {
