@@ -789,7 +789,7 @@ header.main-header .header-sticky.active {
 .slicknav_nav li a {
 	position: relative;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 800;
 	text-transform: capitalize;
 	padding: 8px 20px;
 	color: var(--primary-color);
