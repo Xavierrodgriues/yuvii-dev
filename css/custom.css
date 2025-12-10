@@ -7322,3 +7322,8 @@ header.main-header .header-sticky.active {
     text-align: left;
 }
 
+@media (max-width: 991px) {
+  .cb-cursor {
+    display: none !important;
+  }
+}
