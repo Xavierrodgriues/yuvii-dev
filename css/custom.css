@@ -7305,3 +7305,7 @@ header.main-header .header-sticky.active {
 .what-we-do-circle{
 	margin-left: 13rem;
 }
+.contact-item-content p {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
