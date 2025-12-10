@@ -1756,9 +1756,9 @@ header.main-header .header-sticky.active {
 	padding-top: 50px;
 }
 
-.what-we-do-list {
+/* .what-we-do-list { */
 	/* width: calc(100% - 180px); */
-}
+/* } */
 
 .what-we-do-list ul {
 	list-style: none;
@@ -7308,4 +7308,8 @@ header.main-header .header-sticky.active {
 .contact-item-content p {
     word-break: break-word;
     overflow-wrap: anywhere;
+}
+
+.testimonials-counter-item{
+	flex-direction: column;
 }
