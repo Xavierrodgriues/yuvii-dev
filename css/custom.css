@@ -7310,6 +7310,11 @@ header.main-header .header-sticky.active {
     overflow-wrap: anywhere;
 }
 
-.testimonials-counter-item{
-	flex-direction: column;
+.testimonials-counter-item {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.testimonials-counter-item h2 {
+    width: auto;
+    text-align: left;
 }
