@@ -285,12 +285,12 @@ body {
 
 .btn-default.btn-highlighted {
 	/* background: var(--accent-secondary-color); */
-	background: #332977;
-	color: white;
+	background: white;
+	color: black;
 }
 
 .btn-default.btn-highlighted::before {
-	background-color: black;
+	background-color: #151869;
 	background-image: url('../images/arrow-white.svg');
 }
 
@@ -299,7 +299,10 @@ body {
 }
 
 .btn-default.btn-highlighted::after {
-	background-color: var(--white-color);
+	background-color: black;
+}
+.btn-default.btn-highlighted:hover{
+	color: white;
 }
 
 .readmore-btn {
@@ -7318,3 +7321,4 @@ header.main-header .header-sticky.active {
     width: auto;
     text-align: left;
 }
+
