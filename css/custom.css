@@ -2800,7 +2800,7 @@ header.main-header .header-sticky.active {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
-	padding: 100px 0 0;
+	padding: 0px 0 0;
 }
 
 .footer-header {
@@ -7349,6 +7349,41 @@ header.main-header .header-sticky.active {
 	width: auto !important;
 }
 
-.horizontal-links ul li a {
-	white-space: nowrap;
+
+/* Footer Section Titles */
+.footer-mobile-title {
+	font-size: 1.25rem;
+	/* 20px */
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+/* Footer Address Items */
+.footer-address-list li {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1.5rem;
+}
+
+.footer-address-list li:last-child {
+	margin-bottom: 0;
+}
+
+.footer-address-list li i {
+	font-size: 1.2rem;
+	margin-right: 15px;
+	margin-top: 5px;
+	/* Align with first line of text */
+	flex-shrink: 0;
+}
+
+.footer-address-list li a {
+	color: #fff;
+	line-height: 1.6;
 }
