@@ -525,8 +525,9 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 
-.topbar-contact-info ul li a:hover {
-	color: var(--accent-color);
+.topbar-contact-info ul li a:hover,
+.topbar-contact-info ul li a:focus {
+	color: #e0e0e0;
 }
 
 .topbar-contact-info ul li a i {
@@ -568,8 +569,9 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 
-.topbar-social-links ul li a:hover {
-	color: var(--accent-color);
+.topbar-social-links ul li a:hover,
+.topbar-social-links ul li a:focus {
+	color: #e0e0e0;
 }
 
 .topbar-social-links ul li a i {
