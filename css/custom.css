@@ -7417,3 +7417,27 @@ header.main-header .header-sticky.active {
 	color: #fff;
 	line-height: 1.6;
 }
+
+/* Responsive List for Medical Specialties */
+.medical-specialties-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+	padding-left: 1.2em;
+	/* Ensure bullets are visible/indented */
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) {
+	.medical-specialties-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Large screens (desktops) */
+@media (min-width: 992px) {
+	.medical-specialties-list {
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 20px;
+	}
+}
