@@ -2649,6 +2649,32 @@ header.main-header .header-sticky.active {
 	color: var(--white-color);
 }
 
+.faq-accordion {
+	max-height: 600px;
+	overflow-y: auto;
+	padding-right: 5px;
+	scrollbar-width: thin;
+	scrollbar-color: var(--accent-color) transparent;
+}
+
+/* Custom Scrollbar */
+.faq-accordion::-webkit-scrollbar {
+	width: 4px;
+}
+
+.faq-accordion::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.faq-accordion::-webkit-scrollbar-thumb {
+	background: var(--accent-color);
+	border-radius: 4px;
+}
+
+.faq-accordion::-webkit-scrollbar-thumb:hover {
+	background: var(--primary-color);
+}
+
 .faq-accordion .accordion-item {
 	position: relative;
 	border: 1px solid var(--divider-color);
