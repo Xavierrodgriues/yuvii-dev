@@ -7441,3 +7441,11 @@ header.main-header .header-sticky.active {
 		column-gap: 20px;
 	}
 }
+
+
+@media only screen and (max-width: 765px) {
+	#res{
+		display: flex;
+		justify-content: center;
+	}
+}
