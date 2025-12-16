@@ -7364,6 +7364,19 @@ header.main-header .header-sticky.active {
 	.cb-cursor {
 		display: none !important;
 	}
+
+	.footer-links {
+		text-align: center;
+	}
+
+	.footer-links .footer-contact-item {
+		justify-content: center;
+	}
+
+	.footer-links .footer-contact-item .footer-contact-content {
+		width: auto;
+		flex: initial;
+	}
 }
 
 .horizontal-links ul {
@@ -7444,7 +7457,7 @@ header.main-header .header-sticky.active {
 
 
 @media only screen and (max-width: 765px) {
-	#res{
+	#res {
 		display: flex;
 		justify-content: center;
 	}
