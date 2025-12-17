@@ -7462,3 +7462,11 @@ header.main-header .header-sticky.active {
 		justify-content: center;
 	}
 }
+
+
+.benefit-image-circle {
+    position: absolute;
+    right: -98px;
+    top: 11px;
+    transform: translateX(50%);
+}
