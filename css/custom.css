@@ -7511,3 +7511,9 @@ header.main-header .header-sticky.active {
 		padding-top: 3rem;
 	}
 }
+
+@media (width: 1024px) {
+  .what-we-do-circle {
+    margin-left: 100px;
+  }
+}
