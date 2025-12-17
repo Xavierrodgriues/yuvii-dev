@@ -7477,3 +7477,13 @@ header.main-header .header-sticky.active {
 		display: none;
 	}
 }
+
+
+
+@media (max-width: 991px) {
+	#swap{
+		flex-direction: column-reverse;
+		gap: 3rem;
+	}
+}
+
