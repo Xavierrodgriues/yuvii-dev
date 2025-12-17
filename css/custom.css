@@ -5417,7 +5417,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.why-choose-us {
-		padding: 50px 0;
+		padding: 28px 0;
 	}
 
 	.why-choose-content {
@@ -7484,6 +7484,12 @@ header.main-header .header-sticky.active {
 	#swap{
 		flex-direction: column-reverse;
 		gap: 3rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.why-space{
+		padding-top: 3rem;
 	}
 }
 
