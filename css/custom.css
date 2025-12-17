@@ -7312,7 +7312,7 @@ header.main-header .header-sticky.active {
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	.what-we-do-footer {
 		position: relative;
 	}
@@ -7333,6 +7333,12 @@ header.main-header .header-sticky.active {
 	.what-we-do-list {
 		padding-right: 70px;
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.what-we-do-circle {
+		display: none;
 	}
 }
 
