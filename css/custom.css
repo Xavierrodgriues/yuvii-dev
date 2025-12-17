@@ -7469,4 +7469,11 @@ header.main-header .header-sticky.active {
     right: -98px;
     top: 11px;
     transform: translateX(50%);
+	display: block;
+}
+
+@media (max-width: 991px) {
+	.benefit-image-circle {
+		display: none;
+	}
 }
