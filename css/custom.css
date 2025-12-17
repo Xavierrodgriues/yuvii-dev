@@ -7312,17 +7312,16 @@ header.main-header .header-sticky.active {
 
 }
 
-@media (max-width: 425px) {
-	.what-we-do-circle {
-		display: none;
-	}
+.what-we-do-circle {
+  display: none;
 }
 
-@media (min-width: 426px) {
-	.what-we-do-circle {
-		display: block;
-	}
+@media (min-width: 961px) {
+  .what-we-do-circle {
+    display: block;
+  }
 }
+
 
 
 @media only screen and (max-width: 991px) {
