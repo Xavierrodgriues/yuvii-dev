@@ -1312,7 +1312,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-services {
-	background: var(--secondary-color) url('../images/service-bg.svg') no-repeat;
+	/* background: var(--secondary-color) url('../images/service-bg.svg') no-repeat; */
 	background-size: 100% auto;
 	background-position: center center;
 	padding: 100px 0;
@@ -1949,7 +1949,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-benefits {
-	background: var(--secondary-color) url('../images/benefits-bg.svg');
+	/* background: var(--secondary-color) url('../images/benefits-bg.svg'); */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -2542,7 +2542,7 @@ header.main-header .header-sticky.active {
 
 .our-faqs {
 	padding: 100px 0;
-	background: url('../images/faqs-bg.svg'), var(--secondary-color);
+	/* background: url('../images/faqs-bg.svg'), var(--secondary-color); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -2826,7 +2826,7 @@ header.main-header .header-sticky.active {
 
 .main-footer {
 	background-color: var(--accent-color);
-	background-image: url('../images/footer-bg.svg');
+	/* background-image: url('../images/footer-bg.svg'); */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -3040,7 +3040,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .page-header {
-	background: url('../images/page-header-bg.svg'), var(--accent-color);
+	background: var(--accent-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -3089,7 +3089,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-mission-vision {
-	background: var(--secondary-color) url('../images/mission-vision-bg.svg') no-repeat;
+	/* background: var(--secondary-color) url('../images/mission-vision-bg.svg') no-repeat; */
 	background-position: center center;
 	background-size: 100% auto;
 	padding: 100px 0;
@@ -3580,7 +3580,7 @@ header.main-header .header-sticky.active {
 
 .values-image {
 	position: relative;
-	background: url('../images/values-image-bg.svg') no-repeat;
+	/* background: url('../images/values-image-bg.svg') no-repeat; */
 	background-position: bottom 85px right 62px;
 	background-size: auto;
 	padding-right: 111px;
